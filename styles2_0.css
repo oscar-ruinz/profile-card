@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kumbh Sans" sans-serif;
+    font-size: 18px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(185, 79%, 39%)
+}
+.container{
+    background-color: #FFF;
+    margin-top: 150px;
+}
+.top-bg{
+    position: absolute;
+    z-index: -1;
+}
+.bottom-bg{
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+}
+img {
+    max-width: 100%;
+}
+
+@media (min-width: 400px) {
+    body{
+        background-color: rebeccapurple;
+    }
+}
+
+
+@media (min-width: 1440px) {
+    body{
+        background-color: blue;
+    }
+}
